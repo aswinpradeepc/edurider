@@ -1,11 +1,10 @@
-import 'package:edurider/features/authentication/login.dart';
 import 'package:flutter/material.dart';
 import 'package:edurider/staff.dart';
 import 'package:edurider/student.dart';
-
+import 'package:edurider/features/authentication/login.dart';
 
 void main() {
-  
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -15,17 +14,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       title: 'Edurider',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromRGBO(238, 216, 20, 1)),
-       useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        useMaterial3: true,
       ),
-      
-      //home:const MyHomePage(title: 'Edurider') ,
-      home:  LoginPage()
+      home: const MyHomePage(title: 'Edurider'),
     );
   }
 }
@@ -50,8 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         // Wrap with Center to center content
         child: Column(
-          mainAxisAlignment:
-              MainAxisAlignment.center, // Vertically center children
+          mainAxisAlignment: MainAxisAlignment.center, // Vertically center children
           children: [
             ElevatedButton.icon(
               // Use ElevatedButton.icon for icon and text
