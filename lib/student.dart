@@ -1,3 +1,4 @@
+import 'package:edurider/navigation_menu.dart';
 import 'package:flutter/material.dart';
 
 class StudentPage extends StatelessWidget {
@@ -10,7 +11,7 @@ class StudentPage extends StatelessWidget {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text("Student"),
       ),
-      body: Text("Hellow"),
+      body: const NavigationMenu(),
     );
   }
 }

@@ -1,0 +1,2 @@
+C:/Users/Ajith/OneDrive/Desktop/edurider/android/app/.cxx/Debug/d1i5a5r5/x86/CMakeFiles/edit_cache.dir
+C:/Users/Ajith/OneDrive/Desktop/edurider/android/app/.cxx/Debug/d1i5a5r5/x86/CMakeFiles/rebuild_cache.dir
