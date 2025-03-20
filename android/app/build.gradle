@@ -6,7 +6,8 @@ plugins {
 }
 
 android {
-    namespace = "in.radr.edurider"
+    namespace = "com.example.edurider"
+    compileSdkVersion 30
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 

@@ -1,3 +1,4 @@
+import 'package:edurider/parent_screens/parent_dashboard.dart';
 import 'package:edurider/student.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
@@ -21,7 +22,7 @@ class NavigationMenu extends StatelessWidget {
         NavigationDestination(icon:Icon(Iconsax.home),label:'home'),
         NavigationDestination(icon:Icon(Iconsax.home),label:'home'),
         NavigationDestination(icon:Icon(Iconsax.home),label:'home'),
-        
+        NavigationDestination(icon:Icon(Iconsax.home),label:'home')
         
       ], ),),
       body:Obx(()=>controller.screens[controller.selectedIndex.value]),
@@ -31,6 +32,6 @@ class NavigationMenu extends StatelessWidget {
 class NavigationController extends GetxController{
  final Rx<int> selectedIndex = 0.obs;
 
- final screens = [Container(color: Colors.yellow),Container(color: Colors.yellow),Container(color: Colors.red)];
+ final screens = [ParentDashboard() , Container(color: Colors.blueAccent),Container(color: Colors.yellow),Container(color: Colors.red)];
 
 }

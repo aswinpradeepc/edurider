@@ -15,8 +15,9 @@ dependencies:
   iconsax: ^0.0.8
   
   flutter_otp_text_field: ^1.1.0+2
-
-
+  webview_flutter: ^4.4.2
+  url_launcher: ^6.1.12
+  app_links: ^6.4.0
 
   
   cupertino_icons: ^1.0.8
@@ -31,8 +32,8 @@ dev_dependencies:
 
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: "^0.13.1"
-  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_lints: ^5.0.0
 flutter_icons:
   android: true
   ios: true
